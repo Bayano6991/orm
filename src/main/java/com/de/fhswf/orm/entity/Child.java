@@ -14,7 +14,9 @@ public class Child {
     @GeneratedValue
     private Long id;
 
-    private String name;
+    private String firstname;
+
+    private String lastname;
 
     @ManyToOne
     @JoinColumn(name = "parent_id")
