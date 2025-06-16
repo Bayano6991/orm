@@ -14,7 +14,9 @@ public class Parent {
     @GeneratedValue
     private Long id;
 
-    private String name;
+    private String firstname;
+
+    private String lastname;
 
     private String email;
 
