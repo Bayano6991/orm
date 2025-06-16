@@ -20,7 +20,7 @@ public class Hobby {
     private String name;
 
     @ManyToMany(mappedBy = "hobbies")
-    private List<Parent> persons = new ArrayList<>();
+    private List<Child> children = new ArrayList<>();
 
 
 }
